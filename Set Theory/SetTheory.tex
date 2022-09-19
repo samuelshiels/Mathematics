@@ -1,0 +1,309 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\begin{document}
+	\begin{center}
+		\underline{\textbf{Set, Group, Field and Ring Theory}}
+	\end{center}
+
+\tableofcontents
+
+\part{Introduction}
+\chapter{History}
+
+\part{Method}
+\chapter{Basics}
+\section{Simple Sets}
+A collection of objects is defined as a Set. The objects have to be distinct and a set is an object itself.
+\subsection*{Notation}
+We demonstrate a set with the following notation called Roster Notation:
+\begin{equation}
+S = \{1,2,3\}
+\end{equation}
+This is useful for small finite sets, but many descriptions will use Set-builder Notation:
+\begin{equation}
+S = \{n | n \mod2 = 0, 0<n<21\}
+\end{equation}
+Which describes all the even numbers between 0 and 21.
+\subsection*{Membership}
+If we have an element of a set we describe it as a member and use the following notation:
+\begin{equation}
+	x \in B
+\end{equation}
+We can also describe exclusion from a set:
+\begin{equation}
+	x \notin B
+\end{equation}
+
+\subsection*{Subset}
+Further to membership we can compare two sets and determine whether one set is contained within another. Meaning each individual element of set B is at least in the set A. A 'Proper Subset' is described where a subset is not equal to the other set.
+
+\begin{equation}
+	\{1,2,3\} \subset \{1,2,3,4\}
+\end{equation}
+\begin{equation}
+	\{1,2\} \subseteq \{1,2\}
+\end{equation}
+\subsection*{Power Set}
+
+A power set is the set of all subsets of a set.
+\begin{equation*}
+	S = \{1,2,3\}
+\end{equation*}
+\begin{equation}
+	P(S) = \{\{\varnothing\},\{1\},\{2\},\{3\},\{1,2\},\{1,3\},\{2,3\},\{1,2,3\}\}
+\end{equation}
+
+\subsection*{Cardinality}
+For a set S, the cardinality is the number of members of S.
+\begin{equation*}
+	|S| = 3
+\end{equation*}
+\begin{equation*}
+|P(S)| = 8
+\end{equation*}
+\section{Special Sets}
+
+\begin{math}
+\mathbb{P}
+\end{math}
+the set of all primes
+\newline
+\begin{math}
+\mathbb{N}
+\end{math}
+the set of all natural numbers
+\newline
+\begin{math}
+\mathbb{Z}
+\end{math}
+the set of all integers
+\newline
+\begin{math}
+\mathbb{Q}
+\end{math}
+the set of all rational numbers
+\newline
+\begin{math}
+\mathbb{R}
+\end{math}
+the set of all real numbers
+\newline
+\begin{math}
+\mathbb{C}
+\end{math}
+the set of all complex numbers
+\newline
+\begin{math}
+\mathbb{H}
+\end{math}
+the set of all quaternions
+
+\section{Basic Operations}
+\subsection*{Unions}
+A union of sets is the set formed by all elements in each set.
+\newline Denoted by A $\cup$ B
+\subsection*{Intersections}
+The intersection of sets is the set formed by the common elements in all sets. 
+\newline Denoted by A $\cap$ B
+\subsection*{Complements}
+A complement is the subtraction of all elements in one set from another.
+\newline Denoted by A $\setminus$ B
+\subsection*{Cartesian}	
+The Cartesian is the set formed by associating every element in one set with every element of the other set.
+\newline Denoted by A $\times$ B
+\chapter{Group Theory}
+\section{Groups}
+A Group is a Set equipped with a single operation that combines two elements to form a third that fulfills a series of axioms.
+\subsection*{Notation}
+We demonstrate a group with the following notation:
+\begin{equation}
+	G = (S,+)
+\end{equation}
+Which a Set S with the addition operation to form Group G.
+
+\subsection{Axioms}
+To qualify as a group it needs to fulfill the following series of axioms.
+
+\subsection*{Closure}
+For any two elements in G, the result of the operation is also in G.
+\begin{equation}
+	a\cdot b \in G\ \forall\ a,b \in G
+\end{equation}
+
+\subsection*{Associativity}
+\begin{equation}
+	(a \cdot b) \cdot c = a \cdot (b \cdot c)\ \forall\ a,b,c \in G 
+\end{equation}
+
+\subsection*{Identity element}
+There exists an element in the group such that applying the operation with it against other elements equals that element.
+\begin{equation}
+	\exists\ i\in G\ s.t. a \cdot i = a 
+\end{equation}
+
+\subsection*{Inverse element}
+For each element in the group there is another element that when acted together with the operation equals the identity element.
+\begin{equation}
+	\forall\ a \in G\ \exists\ a^{-1} \in\ G s.t. a \cdot a^{-1} = i
+\end{equation}
+
+\subsection{Abelian Group}
+A group is considered abelian if the operation is commutative
+
+\begin{equation}
+	\forall\ a,b \in G\ a \cdot b = b \cdot a
+\end{equation}
+
+\subsection{Theorems}
+
+\subsection{Homomorphism}
+
+Given two groups (G, $\ast$) and (H, $\cdot$) a group homomorphism is a function defined as h : G $\rightarrow$ H such that:
+\begin{equation}
+	\forall\ u,v \in G,\ h (u \ast v) = h (u) \cdot h(v)
+\end{equation}
+\subsection*{Kernel}
+The kernel of a homomorphism is the set of elements in G that are mapped to the identity in H
+
+\chapter{Ring Theory}
+\section{Rings}
+
+\subsection{Axioms}
+
+The following ring axioms must be satisfied to qualify as a ring
+
+\subsection*{Abelian group under addition}
+\begin{equation}
+	\forall\ a,b,c \in R\ (a + b) + c = a + (b + c)
+\end{equation}
+\begin{equation}
+	a + b = b + a 
+\end{equation}
+\begin{equation}
+	\exists\ 0\ \in R\ s.t.\ a + 0 = a
+\end{equation}
+\begin{equation}
+	\exists -a\ \in R\ s.t.\ a + (-a) = 0
+\end{equation}
+\subsection*{Monoid under addition}
+\begin{equation}
+	\forall\ a,b,c \in R\ a \cdot (b \cdot c) = (a \cdot b) \cdot c
+\end{equation}
+\begin{equation}
+	\exists\ 1 \in R\ s.t.\ a \cdot 1 = 1 \cdot a = a
+\end{equation}
+Existence of a unity element for multiplication is sometimes optional for definitions of a ring
+\subsection*{Distributivity of multiplication with respect to addition}
+\begin{equation}
+	a \cdot (b + c) = a \cdot b + a \cdot c
+\end{equation}
+\begin{equation}
+	(b + c) \cdot a = b \cdot a + c \cdot a 
+\end{equation}
+\subsection{Commutative Ring}
+When the $\cdot$ operation is commutative then R is said to be a \textit{Commutative Ring} or \textit{Abelian Ring}
+\subsection{Examples}
+
+Infinite set of integers $\mathbb{Z}$
+
+\subsection{Subring}
+
+Let (R,+,x) be a ring and S a non-empty subset of R. If S still fulfills the ring axioms it is a sub-ring of R. R is also said to be a ring extension of S.
+
+The trivial subring of R is S = \{0\}. If a subring is different to R it is called a proper sub-ring of R.
+
+\subsection{Ideal}
+
+Let R be a commutative ring, an Ideal is a non empty subset I.
+
+( I , + ) is a sub-group of ( R , + )
+
+I is stable if
+\begin{equation}
+	\forall\ i \in I, r \in R, i * r \in I
+\end{equation}
+
+I is a Proper Ideal if I $\neq$ R
+
+\subsection*{Maximal Ideal}
+For an ideal I of ring R
+\begin{equation}
+	s.t\ \nexists\ I' \subseteq I
+\end{equation}
+
+where I' is a distinct ideal of R
+
+\subsection*{Principal Ideal}
+
+\begin{equation}
+	I = aR = \{ a * x\ |\ x \in R \}
+\end{equation}
+
+
+
+\subsection{Homomorphism}
+
+https://www.youtube.com/watch?v=neQm8x0iJZk
+\subsection{Quotient Ring}
+Let I be a proper Ideal of R. The quotient group R/I is formed of elements of the cosets (r + I) of R with respect to I
+
+\begin{equation}
+	(r + I) \in I\ \{ r + i\ |\ i \in I \}
+\end{equation}
+
+Which can also form a quotient ring
+
+\begin{equation}
+	( r + I ) \oplus ( s + I ) = ( r + s + I)
+\end{equation}
+\begin{equation}
+	( r + I ) \otimes ( s + I ) = ( r * s + I)
+\end{equation}
+
+(r $\in$ R, s $\in$ R) denoted by (R/I, $\oplus$, $\otimes$) or R/I 
+
+
+\chapter{Field Theory}
+\section{Fields}
+A field is a set on which addition, subtraction, multiplication and division are defined and behave as the corresponding operations on rational and real numbers do
+
+\subsection{Axioms}
+
+The following field axioms must be satisfied to qualify as a field
+
+\subsection*{Associativity of addition and multiplication}
+\begin{equation}
+	(a + b) + c = a + (b + c)\ \forall\ a,b,c \in F
+\end{equation}
+\begin{equation}
+	(a \cdot b) \cdot c = a \cdot (b \cdot c)\ \forall\ a,b,c \in F
+\end{equation}
+\subsection*{Commutativity of addition and multiplication}
+\begin{equation}
+	a + b = b + a\ \forall\ a,b \in F 
+\end{equation}
+\begin{equation}
+	a \cdot b = b \cdot a\ \forall\ a,b \in F 
+\end{equation}
+\subsection*{Additive and multiplicative identity}
+\begin{equation}
+	\exists\ c,d \in F,\ c \not\ \ d\ s.t.\ a + c = a\ ,\ b \cdot d = b
+\end{equation}
+\subsection*{Additive inverse}
+\begin{equation}
+	\exists\ a,a^{-1} \in F\ s.t.\ a + a^{-1} = 0
+\end{equation}
+\subsection*{Multiplicative inverse}
+\begin{equation}
+	\exists\ a,a^{-1} \in F\ s.t.\ a \cdot a^{-1} = 1
+\end{equation}
+\subsection*{Distributivity of multiplication over addition}
+\begin{equation}
+	\forall\ a,b,c \in F\ a \cdot (b + c) = a \cdot b + a \cdot c
+\end{equation}
+
+\end{document}

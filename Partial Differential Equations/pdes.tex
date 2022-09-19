@@ -1,0 +1,125 @@
+\documentclass[10pt,a4paper]{report}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+\begin{document}
+	\begin{center}
+		\underline{\textbf{Partial Differential Equations}}
+	\end{center}
+	
+	\tableofcontents
+
+\chapter{Basics}
+
+A PDE is an equation relating the partial derivatives of some unknown function
+
+https://www.youtube.com/watch?v=atvw5iseoGQ\&list=PLF6061160B55B0203\&index=3
+
+\chapter{Partial Differential Equations}
+
+\section{Notation}
+First order differential of u w.r.t t
+\begin{equation}
+	\frac{du}{dt}
+\end{equation}
+Second order differential of u w.r.t t
+\begin{equation}
+	\frac{d^2u}{dt^2}
+\end{equation}
+Laplace function
+\begin{equation}
+	\Delta u (x) = \sum_{i=0}^{n} \frac{d^2u}{dx_i^2} (x) = 0
+\end{equation}
+
+\section{Definitions}
+
+\section{Equations}
+
+\subsection{Heat Equation}
+
+\begin{equation}
+	\frac{du}{dt} = \frac{d^2u}{dx^2}
+\end{equation}
+
+\subsection*{Example}
+
+Is he following equation a solution to the heat equation
+
+\[ u = \frac{1}{2} x^2 + t \]
+
+Check
+
+\[ \frac{du}{dt} = \frac{d}{dt}\frac{1}{2}x^2 + \frac{d}{dt} t\]
+
+\[ \frac{du}{dt} = 1\]
+
+\[ \frac{du}{dx} = \frac{d}{dx}\frac{1}{2}x^2 + \frac{d}{dx} t\]
+
+\[ \frac{du}{dx} = x \]
+
+\[ \frac{d^2u}{dx^2} = 1 \]
+
+
+
+\[\therefore \frac{du}{dt} = \frac{d^2u}{dx^2} \]
+\subsection*{Family of Solutions}
+
+The following equation can generate an infinite number of solutions to the heat equation.
+
+\[ u = e ^{ax + bt}\]
+
+We can determine what a and b can represent as follows
+
+\[ \frac{du}{dt} = e ^{ax + bt} \frac{d(ax+bt)}{dt}\]
+\[ = e^{ax + bt}\cdot b\]
+
+\[ \frac{du}{dx} = e ^{ax + bt}\frac{d(ax+bt)}{dx}\]
+\[ = e^{ax + bt}\cdot a\]
+\[ \frac{d^2u}{dx^2}=e^{ax + bt}\cdot a^2\]
+
+\[ e^{ax + bt}\cdot b=e^{ax + bt}\cdot a^2\]
+\[ \therefore b=a^2\]
+
+\subsection{Wave Equation}
+
+\begin{equation}
+	\frac{d^2u}{dt^2} = t^2 \frac{d^2u}{dx^2}
+\end{equation}
+
+\subsection*{Derivation}
+
+Model a string being moved up and down in a flat plane. Due to the nature of the string the force acting upon it to return to the y=0 axis is proportional to the "concavity".
+
+Force = F = ma
+
+Since acceleration is the 2nd derivative to position
+
+F = m $\cdot$ $\frac{d^2u}{dt^2}$
+
+Concavity can be modelled as the 2nd derivative of the shape of the string, since we are describing the degree of the curve the string is creating
+
+$\therefore \frac{d^2u}{dx^2}$
+
+Since we now have both sides of the equation but we are missing $c^2$. We can compare the units each side so far.
+
+where c2 is the velocity of the string
+
+\subsection{Laplace Equation}
+
+\subsection{Transport Equation}
+
+\section{Basics}
+? Does a solution exist?
+\newline
+? Is the solution unique?
+\newline
+? Does the solution depend continuously on the data?
+\newline
+? How regular is the solution? Is it continuously differentiable? Or even
+smooth?
+\newline
+
+\end{document}
