@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.5)  9 MAY 2022 17:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.9.19)  19 SEP 2022 21:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1104,6 +1104,16 @@ s ignored
 
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): ambiguous entry for `rpcxbsl': font file present but
+ not included, will be treated as font file not present
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): ambiguous entry for `rpcxsl': font file present but 
+not included, will be treated as font file not present
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
 pdftex/updmap/pdftex.map): fontmap entry for `rphvb' already exists, duplicates
  ignored
 
@@ -1259,8 +1269,23 @@ n be used only with embedded Type1 fonts
 
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): ambiguous entry for `rpxbsl': font file present but 
+not included, will be treated as font file not present
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): ambiguous entry for `rpxpplb': font file present but
+ not included, will be treated as font file not present
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
 pdftex/updmap/pdftex.map): fontmap entry for `rpxpplb' already exists, duplicat
 es ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): ambiguous entry for `rpxpplbi': font file present bu
+t not included, will be treated as font file not present
 
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
@@ -1269,8 +1294,18 @@ tes ignored
 
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): invalid entry for `rpxpplbo': SlantFont/ExtendFont c
-an be used only with embedded Type1 fonts
+pdftex/updmap/pdftex.map): ambiguous entry for `rpxpplbo': font file present bu
+t not included, will be treated as font file not present
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rpxpplbo' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): ambiguous entry for `rpxpplr': font file present but
+ not included, will be treated as font file not present
 
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
@@ -1279,13 +1314,28 @@ es ignored
 
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): ambiguous entry for `rpxpplri': font file present bu
+t not included, will be treated as font file not present
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
 pdftex/updmap/pdftex.map): fontmap entry for `rpxpplri' already exists, duplica
 tes ignored
 
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): invalid entry for `rpxpplro': SlantFont/ExtendFont c
-an be used only with embedded Type1 fonts
+pdftex/updmap/pdftex.map): ambiguous entry for `rpxpplro': font file present bu
+t not included, will be treated as font file not present
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rpxpplro' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): ambiguous entry for `rpxsl': font file present but n
+ot included, will be treated as font file not present
 
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
@@ -1296,6 +1346,56 @@ s ignored
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
 pdftex/updmap/pdftex.map): fontmap entry for `rpzdr' already exists, duplicates
  ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxphvb' already exists, duplicat
+es ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxphvbo' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxphvr' already exists, duplicat
+es ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxphvro' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxptmb' already exists, duplicat
+es ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxptmbi' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxptmbo' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxptmr' already exists, duplicat
+es ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxptmri' already exists, duplica
+tes ignored
+
+
+pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
+pdftex/updmap/pdftex.map): fontmap entry for `rtxptmro' already exists, duplica
+tes ignored
 
 
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
@@ -1376,56 +1476,6 @@ an be used only with embedded Type1 fonts
 pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
 pdftex/updmap/pdftex.map): fontmap entry for `zd' already exists, duplicates ig
 nored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `rtxphvb' already exists, duplicat
-es ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): invalid entry for `rtxphvbo': SlantFont/ExtendFont c
-an be used only with embedded Type1 fonts
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `rtxphvr' already exists, duplicat
-es ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): invalid entry for `rtxphvro': SlantFont/ExtendFont c
-an be used only with embedded Type1 fonts
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `rtxptmb' already exists, duplicat
-es ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `rtxptmbi' already exists, duplica
-tes ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): invalid entry for `rtxptmbo': SlantFont/ExtendFont c
-an be used only with embedded Type1 fonts
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `rtxptmr' already exists, duplicat
-es ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): fontmap entry for `rtxptmri' already exists, duplica
-tes ignored
-
-
-pdfTeX warning: /usr/bin/pdflatex (file /usr/share/texlive/texmf-var/fonts/map/
-pdftex/updmap/pdftex.map): invalid entry for `rtxptmro': SlantFont/ExtendFont c
-an be used only with embedded Type1 fonts
 }] (./SetTheory.toc)
 \tf@toc=\write3
 \openout3 = `SetTheory.toc'.
@@ -1467,25 +1517,26 @@ Chapter 5.
 ] (./SetTheory.aux) ) 
 Here is how much of TeX's memory you used:
  2414 strings out of 480806
- 32282 string characters out of 5905152
+ 32282 string characters out of 5905151
  321136 words of memory out of 6000000
  19790 multiletter control sequences out of 15000+600000
  408205 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,7n,62p,264b,138s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-bx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on SetTheory.pdf (12 pages, 118808 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-maths
+y.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}</usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/lm/lmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy
+10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on SetTheory.pdf (12 pages, 106475 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -23,11 +23,17 @@ https://www.youtube.com/watch?v=atvw5iseoGQ\&list=PLF6061160B55B0203\&index=3
 \section{Notation}
 First order differential of u w.r.t t
 \begin{equation}
-	\frac{du}{dt}
+	\frac{du}{dx}
+\end{equation}
+\begin{equation}
+	\dot u
 \end{equation}
 Second order differential of u w.r.t t
 \begin{equation}
-	\frac{d^2u}{dt^2}
+	\frac{d^2u}{dx^2}
+\end{equation}
+\begin{equation}
+	\ddot u
 \end{equation}
 Laplace function
 \begin{equation}
@@ -40,9 +46,16 @@ Laplace function
 
 \subsection{Heat Equation}
 
+The Heat Equation was originally developed to model how heat diffuses across a region
+
 \begin{equation}
 	\frac{du}{dt} = \frac{d^2u}{dx^2}
 \end{equation}
+\begin{equation}
+	\dot u = \Delta u
+\end{equation}
+
+In this specific instance of the Heat Equation we are working in a single dimension
 
 \subsection*{Example}
 
@@ -52,19 +65,15 @@ Is he following equation a solution to the heat equation
 
 Check
 
-\[ \frac{du}{dt} = \frac{d}{dt}\frac{1}{2}x^2 + \frac{d}{dt} t\]
+\[ \frac{d}{dt} u = \frac{d}{dt}\frac{1}{2}x^2 + \frac{d}{dt} t\]
 
-\[ \frac{du}{dt} = 1\]
+\[ \frac{d}{dt} u = 1\]
 
-\[ \frac{du}{dx} = \frac{d}{dx}\frac{1}{2}x^2 + \frac{d}{dx} t\]
+\[ \frac{d^2}{dx^2} u = \frac{d^2}{dx^2}\frac{1}{2}x^2 + \frac{d^2}{dx^2} t\]
 
-\[ \frac{du}{dx} = x \]
+\[ \frac{d^2}{dx^2} u = 1\]
 
-\[ \frac{d^2u}{dx^2} = 1 \]
-
-
-
-\[\therefore \frac{du}{dt} = \frac{d^2u}{dx^2} \]
+\[\therefore \frac{d}{dt} u = \frac{d^2}{dx^2} u \]
 \subsection*{Family of Solutions}
 
 The following equation can generate an infinite number of solutions to the heat equation.
@@ -73,12 +82,12 @@ The following equation can generate an infinite number of solutions to the heat 
 
 We can determine what a and b can represent as follows
 
-\[ \frac{du}{dt} = e ^{ax + bt} \frac{d(ax+bt)}{dt}\]
+\[ \frac{d}{dt} u = e ^{ax + bt} \frac{d}{dt} (ax+bt)\]
 \[ = e^{ax + bt}\cdot b\]
 
-\[ \frac{du}{dx} = e ^{ax + bt}\frac{d(ax+bt)}{dx}\]
+\[ \frac{d}{dx} u = e ^{ax + bt}\frac{d}{dx} (ax+bt)\]
 \[ = e^{ax + bt}\cdot a\]
-\[ \frac{d^2u}{dx^2}=e^{ax + bt}\cdot a^2\]
+\[ \frac{d^2}{dx^2} u=e^{ax + bt}\cdot a^2\]
 
 \[ e^{ax + bt}\cdot b=e^{ax + bt}\cdot a^2\]
 \[ \therefore b=a^2\]
